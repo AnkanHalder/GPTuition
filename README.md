@@ -16,35 +16,7 @@ Unleash your inner learner with GPTuition's comprehensive self-study feature. Di
 
 GPTuition is a novel AI-powered platform designed to enhance the learning experience for both students and educators. It leverages powerful Gemini AI  to offer a variety of features that promote independent learning, improve understanding, and bridge the gap in access to quality education.
 
- ## Features
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
-## Rename a file
-
--   **Self-study features for students:**
-    -   Generate personalized, AI-powered notes on any topic in PDF format.
-    -   Take engaging AI-generated quizzes and compare results globally.
-    -   Query and learn from existing PDFs, extracting specific information and gaining deeper understanding.
--   **Support for educators:**
-    -   Generate comprehensive notes quickly and efficiently using the AI Note Generator.
-    -   Create personalized quizzes to assess student understanding.
-
-## ##   
-GPTuition: AI-powered Learning Platform
-
-**Table of Contents:**
-
--   About: #about
--   Features: #features
--   Installation: #installation
--   Usage: #usage
--   Contributing: #contributing
--   License: #license
-
-## About
-
-GPTuition is a novel AI-powered platform designed to enhance the learning experience for both students and educators. It leverages powerful AI algorithms to offer a variety of features that promote independent learning, improve understanding, and bridge the gap in access to quality education.
 
 ## Features
 
@@ -65,37 +37,8 @@ GPTuition is a novel AI-powered platform designed to enhance the learning experi
 - VS Code , Pycharm or a similar IDE
 
 ## ##   
-GPTuition: AI-powered Learning Platform
 
-**Table of Contents:**
 
--   About: #about
--   Features: #features
--   Installation: #installation
--   Usage: #usage
--   Contributing: #contributing
--   License: #license
-
-## About
-
-GPTuition is a novel AI-powered platform designed to enhance the learning experience for both students and educators. It leverages powerful AI algorithms to offer a variety of features that promote independent learning, improve understanding, and bridge the gap in access to quality education.
-
-## Features
-
--   **Self-study features for students:**
-    -   Generate personalized, AI-powered notes on any topic in PDF format.
-    -   Take engaging AI-generated quizzes and compare results globally.
-    -   Query and learn from existing PDFs, extracting specific information and gaining deeper understanding.
--   **Support for educators:**
-    -   Generate comprehensive notes quickly and efficiently using the AI Note Generator.
-    -   Create personalized quizzes to assess student understanding.
-
-## Installation
-
-### Prerequisites
-
--   Python 3.7 or above
--   pip (package installer for Python)
 
 ### Installation Methods
 
@@ -108,54 +51,6 @@ GPTuition is a novel AI-powered platform designed to enhance the learning experi
 ```
 git clone https://github.com/<your-username>/gptuition.git
 cd gptuition
-
-```
-
-##   
-GPTuition: AI-powered Learning Platform
-
-**Table of Contents:**
-
--   About: #about
--   Features: #features
--   Installation: #installation
--   Usage: #usage
--   Contributing: #contributing
--   License: #license
-
-## About
-
-GPTuition is a novel AI-powered platform designed to enhance the learning experience for both students and educators. It leverages powerful AI algorithms to offer a variety of features that promote independent learning, improve understanding, and bridge the gap in access to quality education.
-
-## Features
-
--   **Self-study features for students:**
-    -   Generate personalized, AI-powered notes on any topic in PDF format.
-    -   Take engaging AI-generated quizzes and compare results globally.
-    -   Query and learn from existing PDFs, extracting specific information and gaining deeper understanding.
--   **Support for educators:**
-    -   Generate comprehensive notes quickly and efficiently using the AI Note Generator.
-    -   Create personalized quizzes to assess student understanding.
-
-## Installation
-
-### Prerequisites
-
--   Python 3.7 or above
--   pip (package installer for Python)
-
-### Installation Methods
-
-**1. Forking and Cloning:**
-
--   Fork this repository on GitHub.
--   Clone your forked repository to your local machine:
-
-
-
-```
-git clone https://github.com/your-username/gptoition.git
-cd gptoition
 
 ```
 
