@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --color-primary: #131314;
+    --color-secondary: #1E1F20;
+    --color-text: rgb(241, 244, 246);
+}
+
+body{
+    background-color: var(--color-primary,#131314);
+    color: var(--color-text,rgb(241, 244, 246));
+}
+
+.page{
+    @apply py-20
+}
+
+.text-gradient-primary{
+    @apply bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent; 
+}
+.background-gradient-primary{
+    @apply bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500; 
+}
+.color-white{
+    color: var(--color-text,rgb(241, 244, 246));
+}
+.bg-sec{
+    background-color: var(--color-secondary,#1E1F20);
+}
+.bg-prim{
+    background-color: var(--color-primary,#131314);
+}
+
+.text-hero{
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+}
+
+.button{
+    transition: all 200ms linear;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0rem 1rem rgba(104, 104, 104, 0.5);
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.05);
+}
+.button:hover h1{
+    @apply font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent;
+}
+.button:active {
+    transform: scale(0.95);
+}
+
+
+.feature-card{
+    transition: all 200ms linear;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    background-color: var(--color-secondary,#1E1F20);
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    padding: 2rem;
+    @apply w-11/12 sm:w-3/5  ; 
+}
+.feature-card:hover .feature-card-blur{
+    @apply blur-md
+}
+.feature-card> div > h1{
+    @apply font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent;
+}
+
+.flex-center{
+    @apply flex items-center justify-center
+}
+.shadow-small-light{
+    box-shadow: 0rem 0rem 1rem rgba(118, 118, 118, 0.5);
+}

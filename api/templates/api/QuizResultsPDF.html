@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Quiz Results </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div>
+            <div>
+                <h1> Quiz Results </h1>
+            </div>
+            <div class="details">
+                <h1><b>Topic: </b> SomeName </h1>
+                <h1><b>Name: </b> SomeName </h1>
+                <h1><b>Email: </b> SomeName </h1>
+                <h1><b>Date Time: </b> SomeName </h1>
+            </div>
+            <div>
+                <h1> Marks Scored:  </h1>
+            </div>
+            <div>
+                <h1> Questions And Answers  </h1>
+                {% for question, selected_option in processed_data %}
+                <div class="question">
+                    <h2><span>{{ question.number }} .</span>{{ question.text }}</h2>
+                    <ul>
+                        {% for option, text in question.options.items %}
+                            <li><h6>{{ option }}. {{ text }}</h6></li>
+                        {% endfor %}
+                    </ul>
+                    <div class="answer">
+                        <h4><span>Correct Answer:</span>{{ question.correct_answer }}</h4>
+                        <h4><span>Chosen Answer:</span>
+                            {% if selected_option == '' %}
+                                Unanswered
+                            {% else %}
+                                {{ selected_option }}
+                            {% endif %}
+                        </h4>
+                        <h4><span>Explanation:</span>{{ question.explanation }}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
