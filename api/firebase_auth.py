@@ -1,14 +1,20 @@
 import pyrebase
 import json
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
+
 
 config = {
-    'apiKey': "AIzaSyBdoW5kiB6Cc57Q_aPdkr0FpslqyPfA-NE",
-    'authDomain': "gptuition-f642d.firebaseapp.com",
-    'projectId': "gptuition-f642d",
-    "databaseURL": "https://gptuition-f642d-default-rtdb.firebaseio.com",
-    'storageBucket': "gptuition-f642d.appspot.com",
-    'messagingSenderId': "1019435120216",
-    'appId': "1:1019435120216:web:ad9c5d392c4888ca4e3c2d"
+    'apiKey': os.environ.get('FIREBASE_API_KEY'),
+    'authDomain': os.environ.get('FIREBASE_AUTH_DOMAIN'),
+    'projectId': os.environ.get('FIREBASE_PROJECT_ID'),
+    "databaseURL": os.environ.get('FIREBASE_DB_URL'),
+    'storageBucket': os.environ.get('FIREBASE_STORAGE_BUCKET'),
+    'messagingSenderId': os.environ.get('FIREBASE_MSG_ID'),
+    'appId': os.environ.get('FIREBASE_APPID')
 }
 
 firebase = pyrebase.initialize_app(config)
