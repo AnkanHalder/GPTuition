@@ -63,6 +63,11 @@ After cloning the repository, install the required dependencies:
 pip install -r requirements.txt
 ```
 
+**3. Run the Project**
+
+```
+python manage.py runserver
+```
 
 
 # License
