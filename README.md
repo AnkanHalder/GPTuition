@@ -84,4 +84,4 @@ If you have any ideas, meet with any bug, please raise an issuse. We are always 
 
 - Ankan Halder
 - Suchana Nag
-- Aritra Ganguly
+- Soumyajit Ghosh
